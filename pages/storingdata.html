@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Storing data</title>
+    <meta name="author" content="Bethany's Pie Shop">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/storingdata.css">
+    <script src="../scripts/storingdata.js"></script>
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav>
+            <ul>
+                <li><img src="../images/cake.svg" height="55" /></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="mainContent">
+        <aside class="leftmenu">
+            <a href="index.html"><img src="../images/bethanylogo.png" /></a>
+            <header>
+                <h4>Browse our pies</h4>
+            </header>
+            <ul>
+                <li><a href="pieoverview.html">All pies</a></li>
+                <li><a href="cheesecakes.html">Cheese cakes</a></li>
+                <li><a href="fruitpies.html">Fruit pies</a></li>
+                <li><a href="seasonalpies.html">Seasonal pies</a></li>
+            </ul>
+            <input type="search" class="searchbox" placeholder="Search our store" />
+
+        </aside>
+        <main class="main">
+            <div class="container">
+                <h4>Local Storage</h4>
+                <div class="p-4 mb-5 storageContainer">
+                    <div class="row mb-3">
+                        <div class="col-8">
+                            <input type="text" class="form-control mr-2" id="localData" />
+                        </div>
+                        <div class="col-4">
+                            <button class="btn setButton" type="button" onclick="setLocalStorage()">Set Local
+                                Data</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn getButton" onclick="getLocalStorage()">Get Local Data</button>
+                            <button class="btn loopButton" onclick="loopThroughLocalStorage()">Get All Local
+                                Data</button>
+                            <button class="btn removeButton" onclick="removeLocalStorage()">Remove Local Data</button>
+                            <button class="btn clearButton" onclick="clearLocalStorage()">Clear All Local Data</button>
+                        </div>
+                        <div class="col pl-5">
+                            <div class="getText mb-3" id="localStorageValue"></div>
+                            <div class="getLoopText" id="localStorageAllData"></div>
+                        </div>
+                    </div>
+                </div>
+                <h4>Session Storage</h4>
+                <div class="p-4 storageContainer">
+                    <div class="row mb-3">
+                        <div class="col-8">
+                            <input type="text" class="form-control mr-2" id="sessionData" />
+                        </div>
+                        <div class="col-4">
+                            <button class="btn setButton" type="button" onclick="setSessionStorage()">Set Session
+                                Data</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn getButton" onclick="getSessionStorage()">Get Session Data</button>
+                            <button class="btn loopButton" onclick="loopThroughSessionStorage()">Get All Session
+                                Data</button>
+                            <button class="btn removeButton" onclick="removeSessionStorage()">Remove Session
+                                Data</button>
+                            <button class="btn clearButton" onclick="clearSessionStorage()">Clear All Session
+                                Data</button>
+                        </div>
+                        <div class="col pl-5">
+                            <div class="getText mb-3" id="sessionStorageValue"></div>
+                            <div class="getLoopText" id="sessionStorageAllData"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
+</main>
+<footer>
+    <p> Our address is
+    <address>Bethany's Pie Shop - Bakery Street 55 Brussels Belgium</address>
+    </p>
+    <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
+    <small>&copy; 2022 Bethany's Pie Shop - All rights reserved</small>
+</footer>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e4d9;
+    background-image: url(../images/pattern.png);
+}
+
+#mainheader {
+    background-color: #a593c2;
+    box-shadow: 0px 0px 25px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.leftmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    align-items: center;
+}
+
+input,
+textarea {
+    border-radius: 7px;
+}
+
+input:valid {
+    border-color: green;
+}
+
+iframe {
+    width: 80%;
+    height: 80%;
+}
+
+nav {
+    height: 60px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.searchbox {
+    width: 200px;
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+    display: block;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    color: #a593c2;
+}
+
+footer {
+    padding-left: 8%;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.storageContainer>div:last-child button:not(:nth-child(1)) {
+    margin-top: 1em;
+}
+
+.container {
+    width: 600px;
+    margin-top: 100px;
+}
+
+.storageContainer {
+    background: #F4F4F4;
+}
+
+.getText {
+    color: #F05A28;
+    font-weight: bold;
+    padding-top: 5px;
+    height: 38px;
+}
+
+.getLoopText {
+    padding-top: 5px;
+}
+
+/* buttons */
+.setButton {
+    background: #2A9FBC;
+    color: #FFF;
+    width: 100%;
+}
+
+.setButton:hover {
+    background: #1F778D;
+    color: #FFF;
+}
+
+.getButton {
+    background: #404040;
+    color: #FFF;
+    width: 100%;
+}
+
+.getButton:hover {
+    background: #303030;
+    color: #FFF;
+}
+
+
+.loopButton {
+    background: #A62E5C;
+    color: #FFF;
+    width: 100%;
+}
+
+.loopButton:hover {
+    background: #7D2345;
+    color: #FFF;
+}
+
+.clearButton {
+    background: #9BC850;
+    color: #FFF;
+    width: 100%;
+}
+
+.clearButton:hover {
+    background: #77A032;
+    color: #FFF;
+}
+
+.removeButton {
+    background: #675BA7;
+    color: #FFF;
+    width: 100%;
+}
+
+.removeButton:hover {
+    background: #4D447E;
+    color: #FFF;
+    width: 100%;
+}
+
+img {
+    border-radius: 10px;
+}
